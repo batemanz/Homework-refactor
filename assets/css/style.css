@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     /* sets global settings for everything within the header class */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,7 +29,7 @@ h1 {
     color: #d9dcd6;
 }
 
-.header div {
+header nav{
     /* sets parameters for all div elements within the header class */
     padding-top: 15px;
     margin-right: 20px;
@@ -38,19 +38,15 @@ h1 {
     font-size: 20px;
 }
 
-ul {
-    /* removes the bullet points from list items within the unordered list */
+ul li {
+    /* shows the undordered list in a line block format with a left margin set, removes bullet points */
+    display: inline-block;
+    margin-left: 25px;
     list-style-type: none;
 }
 
-ul li {
-    /* shows the undordered list in a line block format with a left margin set */
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
-    /* sets all a link elements color to white and text decorations set to none */
+    /* sets all a link elements color to white and text-decoration to remove underline */
     color: #ffffff;
     text-decoration: none;
 }
@@ -95,7 +91,7 @@ h3 {
     margin-left: 20px;
 }
 
-.content div {
+.content section {
     /* sets parameters over div elements within the content class */
     margin-bottom: 20px;
     padding: 50px;
@@ -129,8 +125,8 @@ h3 {
     color: #ffffff;
 }
 
-.benefits div {
-    /* sets bottom margin of div elements within the benifits class*/
+.benefits section {
+    /* sets bottom margin of section elements within the benifits class*/
     margin-bottom: 32px;
 }
 
@@ -141,7 +137,7 @@ h3 {
     max-width: 150px;
 }
 
-.footer {
+footer {
     /* fonts, align center, padding for all of footer */
     padding: 30px;
     clear: both;
@@ -149,7 +145,7 @@ h3 {
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     /* sets font size of footer header */
     font-size: 20px;
 }
