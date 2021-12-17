@@ -91,7 +91,7 @@ h3 {
     margin-left: 20px;
 }
 
-.content section {
+.content article {
     /* sets parameters over div elements within the content class */
     margin-bottom: 20px;
     padding: 50px;
@@ -125,7 +125,7 @@ h3 {
     color: #ffffff;
 }
 
-.benefits section {
+.benefits article {
     /* sets bottom margin of section elements within the benifits class*/
     margin-bottom: 32px;
 }
