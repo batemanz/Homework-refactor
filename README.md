@@ -1,6 +1,5 @@
  # <Homework-refactor>
 ## Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 - My motivation for this process was to hopefully get a better understanding of clean code and syntactly correct html file. also learning how to do this README.
 - I refacatored this webapge to help consolidate the css file and also replace div tags with proper html tags.
 - the problems that were solved were removing the redundencys within the css file and using proper html syntax in the html file
@@ -9,6 +8,7 @@ Provide a short description explaining the what, why, and how of your project. U
 N/A
 ## Installation
 dont underastand what its asking me to put here... open the url....?
+[alt txt](https://batemanz.github.io/Homework-refactor/)
 ## Usage
 top of the page
 [alt txt](assets/images/Screenshot1.png)
